@@ -35,6 +35,7 @@ with tab2:
 
 
         },
+        
         "Physics":{
             "2021_PH_1101":"https://drive.google.com/file/d/17OhlHtvOn8w7eHbiOHgZjuScbHT8pbKC/view?usp=sharing",
             "2017_PH_1101":"https://drive.google.com/file/d/1RSl_8Nk4ecLemjBcfcOTo1bda_8-pCYu/view?usp=drive_link",
@@ -152,7 +153,7 @@ with tab5:
 
 # --- Tab 6: Drawing Plates ---
 with tab6:
-    st.header("Drawing Plates")
+    st.header("Engineering Dreawing")
     st.markdown("[Plate 1](https://drive.google.com/file/d/12EnfY4K7jU44tMil1zmY12neoGumgZtC/view?usp=drive_link)")
     st.markdown("[Plate 2](https://drive.google.com/file/d/1XdsRjkAkp0_SJ23uPgnfdAfUtLeZfGtE/view?usp=drive_link)")
     st.markdown("[Plate 3](https://drive.google.com/file/d/1zVcv9G50FbpmcL8tLJRioEt1SKJqLgEl/view?usp=drive_link)")
@@ -160,6 +161,11 @@ with tab6:
     st.markdown("[plate 5](https://drive.google.com/file/d/1FpCtrrH18297cae3Q8aycGIhDAQQjg53/view?usp=drive_link)")
     st.markdown("[plate 6](https://drive.google.com/file/d/1azU_s8oFA-sDpbEnIdDh3pO2BzUPZRk6/view?usp=drive_link)")
     st.markdown("[plate 7](https://drive.google.com/file/d/1PU9ZmBvwUCF0GNPnQQSGiLkwwFsYlJSk/view?usp=drive_link)")
+    st.markdown("[ED pyq](https://drive.google.com/file/d/1YeiEFJs4TysuL0MRsyRf5LCZKsOhVE5i/view?usp=drive_link)")
+    st.markdown("[Assignment](https://drive.google.com/file/d/1dekTEMA1j0Xumf-wUu_d0wlwGUP3mo2H/view?usp=drive_link)")
+    st.markdown("[ED viva](https://drive.google.com/file/d/1oBawP4nIfz3KsLrUfLMUXVBfE8gMEiaC/view?usp=drive_link)")
+    st.markdown("[Ed Book-N.D.BHATT](https://drive.google.com/file/d/1qGiz2NjwAwwAVjithmeP-PC-6vu1SNmJ/view?usp=drive_link)")
+    st.markdown("[all plates](https://drive.google.com/file/d/1DJyxjuUqUY50DOPW7OIYGN919fkBe7A-/view?usp=drive_link)")
 # --- Tab 7: Assignments ---
 with tab7:
     st.header("Assignments")
