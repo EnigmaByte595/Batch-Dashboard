@@ -15,8 +15,8 @@ with tab1:
     st.markdown("[Physics Syllabus](https://drive.google.com/file/d/1u3QJSGBeNrry3zmk75aJJNzvTEMjwB3k/view?usp=drive_link)")
     st.markdown("[Maths Syllabus](https://drive.google.com/file/d/1R20GWLIeyLrvGyVubwCJzygXPhxaIQnB/view?usp=drive_link)")
     #st.markdown("[AI_ML Syllabus]()")
-    #st.markdown("[materials]()")
-    #st.markdown("[energy_env_climate]()")
+    st.markdown("[materials](https://drive.google.com/file/d/1-MyY4tZKGMwT1iclaeekGZ3D39X3BfUn/view?usp=drive_link)")
+    st.markdown("[energy_env_climate](https://drive.google.com/file/d/1J866HBgAwWaakmc1kfuLMypHfQHnNbLG/view?usp=sharing)")
     #st.markdown("[Engineering_drawing]()")
 
 # --- Tab 2: PYQs ---
@@ -76,7 +76,7 @@ with tab3:
     st.markdown("[engineering mechanics-mariam & kraige-solution](https://drive.google.com/file/d/1mKJZmNWfFUkfYR-qL_9EIWX5mBOyNXsP/view?usp=drive_link)")
     st.markdown("[engineering mechanics dynamics-meriam & kraige](https://drive.google.com/file/d/1IX9mE9JHqT_oL7ch2MTnMurNAhLGUWIk/view?usp=drive_link)")
     st.markdown("[engineering mechanics statics-meriam & kraige](https://drive.google.com/file/d/1aAdahyyFnhp7xP8KOByaIYJioTNG2CDY/view?usp=drive_link)")
-
+    st.markdown("[manufacturing engineering and technology-S vijay sekhar](https://drive.google.com/file/d/1A7-f9UI__vZ-UVVFtfdSc_oFP02E3Wiq/view?usp=drive_link)")
 
 # --- Tab 4: Classnotes ---
 with tab4:
@@ -155,7 +155,7 @@ with tab5:
 with tab6:
     st.header("Engineering Dreawing")
     st.markdown("[Plate 1](https://drive.google.com/file/d/12EnfY4K7jU44tMil1zmY12neoGumgZtC/view?usp=drive_link)")
-    st.markdown("[Plate 2](https://drive.google.com/file/d/1XdsRjkAkp0_SJ23uPgnfdAfUtLeZfGtE/view?usp=drive_link)")
+    st.markdown("[Plate 2](https://drive.google.com/file/d/1pYd_ecgkcGMP-6dodt4cCSuLhTyT6XB5/view?usp=drive_link)")
     st.markdown("[Plate 3](https://drive.google.com/file/d/1zVcv9G50FbpmcL8tLJRioEt1SKJqLgEl/view?usp=drive_link)")
     st.markdown("[Plate 4](https://drive.google.com/file/d/1h42sX1H2OckqK3e6DW8t750RejpfcMfT/view?usp=drive_link)")
     st.markdown("[plate 5](https://drive.google.com/file/d/1FpCtrrH18297cae3Q8aycGIhDAQQjg53/view?usp=drive_link)")
