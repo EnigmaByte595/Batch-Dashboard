@@ -137,6 +137,7 @@ with tab4:
         "AI_ML": {
             "python": "https://drive.google.com/file/d/1_ZYYORKssVzG9OuBXn8a1e25yTxp8Yad/view?usp=drive_link",
             "Linux command handbook":"https://drive.google.com/file/d/1bViAqHqdyh7owIn7TVW0sJ4Oo9Nh04uv/view?usp=drive_link",
+            "python problems":"https://www.hackerrank.com/domains/python",
         },
     }
 
