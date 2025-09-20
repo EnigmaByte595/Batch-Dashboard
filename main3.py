@@ -1,12 +1,15 @@
 import streamlit as st
+import pandas as pd
+import os
+from datetime import datetime
 
 st.set_page_config(page_title="IIEST Civil-Met Hub", layout="wide")
 
 st.title("IIEST Civil-Met Notes & Resources")
 
 # --- Navigation Tabs ---
-tab1, tab2, tab3, tab4, tab5, tab6, tab7,tab8 = st.tabs(
-    ["📖 Syllabus", "❓ PYQs", "📚 Books", "📝 Classnotes", "🧪 Lab Notes", "📐 Drawing Plates", "📂 Assignments","⏰Civil-Met-(A,B)ROUTINE"]
+tab1, tab2, tab3, tab4, tab5, tab6, tab7,tab8 , tab9= st.tabs(
+    ["📖 Syllabus", "❓ PYQs", "📚 Books", "📝 Classnotes", "🧪 Lab Notes", "📐 Drawing Plates", "📂 Assignments","⏰Civil-Met-(A,B)ROUTINE","Discussions"]
 )
 
 # --- Tab 1: Syllabus ---
@@ -170,9 +173,48 @@ with tab6:
 # --- Tab 7: Assignments ---
 with tab7:
     st.header("Assignments")
-    st.write("will add later")
+    st.markdown("[physics problem set-1](https://drive.google.com/file/d/1m7TFOjLHyQPkicUaRNkJzcb0S7ZCJg1j/view?usp=sharing)")
 
 # --- Tab8:Routine ---
 with tab8:
     st.header("CIVIL-MET ROUTINE")
     st.markdown("[Routine](https://drive.google.com/file/d/11lOd5H1rRadfqFL27fvBgLkns4y5pL9g/view?usp=sharing)")
+
+with tab9:
+    FILE = "comments.csv"
+
+    # Load old comments safely (handle empty file)
+    if os.path.exists(FILE) and os.path.getsize(FILE) > 0:
+        df = pd.read_csv(FILE)
+    else:
+        df = pd.DataFrame(columns=["time", "name", "comment"])
+
+    st.title("💬 Batch Comments & Suggestions")
+
+    # Input fields
+    name = st.text_input("Your name:")
+    comment = st.text_area("Write your comment:")
+
+    # Save new comment
+    if st.button("Submit"):
+        if name and comment:
+            new = pd.DataFrame(
+                [[datetime.now().strftime("%Y-%m-%d %H:%M"), name, comment]],
+                columns=["time", "name", "comment"]
+            )
+            df = pd.concat([df, new], ignore_index=True)
+            df.to_csv(FILE, index=False)
+            st.success("✅ Comment added!")
+            st.balloons()
+            st.snow()
+        else:
+            st.warning("⚠️ Please enter both name and comment.")
+
+    # Display comments (latest first, like chat)
+    st.subheader("🗨️ All Comments")
+    if not df.empty:
+        for i, row in df.iloc[::-1].iterrows():  # reverse order
+            st.markdown(f"**{row['name']}** ({row['time']}): {row['comment']}")
+    else:
+        st.info("No comments yet. Be the first to add one! 🎉")
+
