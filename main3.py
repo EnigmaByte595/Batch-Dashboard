@@ -35,8 +35,6 @@ with tab2:
             "2023_MA_1101_mid":"https://drive.google.com/file/d/14WptP5_jNHpd7bRs1bEyzVUevDwnlAOA/view?usp=drive_link",
 
 
-
-
         },
         
         "Physics":{
@@ -157,7 +155,7 @@ with tab5:
 
 # --- Tab 6: Drawing Plates ---
 with tab6:
-    st.header("Engineering Dreawing")
+    st.header("Engineering Drawing")
     st.markdown("[Plate 1](https://drive.google.com/file/d/12EnfY4K7jU44tMil1zmY12neoGumgZtC/view?usp=drive_link)")
     st.markdown("[Plate 2](https://drive.google.com/file/d/1pYd_ecgkcGMP-6dodt4cCSuLhTyT6XB5/view?usp=drive_link)")
     st.markdown("[Plate 3](https://drive.google.com/file/d/1zVcv9G50FbpmcL8tLJRioEt1SKJqLgEl/view?usp=drive_link)")
@@ -174,6 +172,7 @@ with tab6:
 with tab7:
     st.header("Assignments")
     st.markdown("[physics problem set-1](https://drive.google.com/file/d/1m7TFOjLHyQPkicUaRNkJzcb0S7ZCJg1j/view?usp=sharing)")
+    st.markdown("[math problemset-1](https://drive.google.com/file/d/1engBCWYFKwaFTALKEdYrSfS2akSJkTfu/view?usp=sharing)")
 
 # --- Tab8:Routine ---
 with tab8:
