@@ -78,6 +78,7 @@ with tab3:
     st.markdown("[engineering mechanics dynamics-meriam & kraige](https://drive.google.com/file/d/1IX9mE9JHqT_oL7ch2MTnMurNAhLGUWIk/view?usp=drive_link)")
     st.markdown("[engineering mechanics statics-meriam & kraige](https://drive.google.com/file/d/1aAdahyyFnhp7xP8KOByaIYJioTNG2CDY/view?usp=drive_link)")
     st.markdown("[manufacturing engineering and technology-S vijay sekhar](https://drive.google.com/file/d/1A7-f9UI__vZ-UVVFtfdSc_oFP02E3Wiq/view?usp=drive_link)")
+    st.markdown("[gps(1st sem)](https://drive.google.com/file/d/1jBvb9R74WDrWwgmaOJJSwHsJSfExmEP3/view?usp=drive_link)")
 
 # --- Tab 4: Classnotes ---
 with tab4:
@@ -118,6 +119,7 @@ with tab4:
             "Diffraction":"https://drive.google.com/file/d/1fvFf-CGDjVHWtOnS1YXUN3-M-8uJiMxw/view?usp=drive_link",
             "Double_slit_diff_pattern":"https://drive.google.com/file/d/17H0PvLNFLbnG-HnXs4x0RplNnJGwfwj_/view?usp=drive_link",
             "mechanics-dynamics":"https://drive.google.com/file/d/1wXkqvKELoh3r2IVOeYZQ4T568z7rKBDE/view?usp=drive_link",
+            "mechanics_practice":"https://drive.google.com/file/d/1EUbFVQwxYYTXk-TJZ1kGHJ305MWZ7uhv/view?usp=drive_link",
         },
         "Energy_Environment_climate_change": {
             "Air standard": "https://drive.google.com/file/d/1cOLew49keaRYTVj1xRQWwG1U1I5JKX1-/view?usp=drive_link",
@@ -173,7 +175,7 @@ with tab7:
     st.header("Assignments")
     st.markdown("[physics problem set-1](https://drive.google.com/file/d/1m7TFOjLHyQPkicUaRNkJzcb0S7ZCJg1j/view?usp=sharing)")
     st.markdown("[math problemset-1](https://drive.google.com/file/d/1engBCWYFKwaFTALKEdYrSfS2akSJkTfu/view?usp=sharing)")
-
+    st.markdown("[Infinite_series_soln](https://drive.google.com/file/d/1eyKunaxhiZJNNt-8639MVZDUy8a0oLH9/view?usp=drive_link)")
 # --- Tab8:Routine ---
 with tab8:
     st.header("CIVIL-MET ROUTINE")
